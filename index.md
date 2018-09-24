@@ -46,11 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -59,13 +54,9 @@ and our administrator may contact you if we need any extra information.</h4>
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/intro.html %}
-{% endif %}
+HPC Carpentry is a new workshop in the beta development phase for inclusion in The Carpentries. In is designed to teach how to interact with a compute cluster. The first lesson, HPC Shell, is a general introduction to the bash command line with specific reference to working on remote system.  The second lesson, HPC Intro, focuses on submitting work on a typical HPC cluster through the scheduler. The third lesson, HPC Beyond, is a alpha protoype focusing on parallelization and optomization. Each lesson takes roughly a half day.
+
+Workshops are intended to be fully interactive and taught in the “Software Carpentry” format: instruction is done live, with learners coding along with workshop instructors. Frequent excercises and test problems have been added to ensure students have a chance to try things on their own. No prior computing experience is required or expected.
 
 {% comment %}
   AUDIENCE
