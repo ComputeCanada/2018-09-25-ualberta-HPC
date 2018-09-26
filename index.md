@@ -9,7 +9,7 @@ latlng: "53.528117, -113.525747"       # decimal latitude and longitude of works
 humandate: "September 25 & 26, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9am - 4pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-09-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-09-26        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2018-09-26        # machine-readable end date for the workshop in YYYY-MM-DD format like 201en5-01-02
 instructor: ["John Simpson","Kamil Marchinkowksi","Chris Want"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Erming Pei"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["john.simpson@ualberta.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -58,6 +58,7 @@ HPC Carpentry is a new workshop in the beta development phase for inclusion in T
 
 Workshops are intended to be fully interactive and taught in the “Software Carpentry” format: instruction is done live, with learners coding along with workshop instructors. Frequent excercises and test problems have been added to ensure students have a chance to try things on their own. No prior computing experience is required or expected.
 
+{% comment %}
   LOCATION
 
   This block displays the address and links to maps showing directions
