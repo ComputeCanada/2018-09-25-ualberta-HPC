@@ -191,7 +191,7 @@ Workshops are intended to be fully interactive and taught in the “Software Car
 <ol>
 	<li><a href="https://hpc-carpentry.github.io/hpc-shell/">HPC Shell</a>, Tuesday 1pm-3:50pm</li>
 	<li><a href="https://hpc-carpentry.github.io/hpc-intro/">HPC Intro</a>, Wednesday 9am-11:50am</li>
-	<li>HPC Beyond, Wednesday 1pm-3:50pm</li>
+	<li><a href="https://cwant.github.io/hpc-beyond/">HPC Beyond</a>, Wednesday 1pm-3:50pm</li>
 </ol>
 <p>Click the links in the list above for a list of specific content.  HPC Beyond is so new that we don't have any pages available for it yet.</p>
 {% comment %}
